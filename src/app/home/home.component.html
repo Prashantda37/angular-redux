@@ -1,0 +1,4 @@
+<button (click)="getList($event)">{{ title }}</button>
+<ul>
+  <li *ngFor="let list of userList">{{ list.name }}</li>
+</ul>
